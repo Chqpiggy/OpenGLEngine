@@ -3,4 +3,5 @@ class cManager
 {
 public:
     cManager();
+    ~cManager();
 };

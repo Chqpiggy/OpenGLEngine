@@ -3,3 +3,7 @@
 cManager::cManager()
 {
 }
+
+cManager::~cManager()
+{
+}
