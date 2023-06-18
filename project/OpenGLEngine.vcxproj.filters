@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{44c44843-3d09-4fb9-9e81-92f4de6b57eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{b04f1735-f9e3-4b27-a218-609a8dea3fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\shader">
+      <UniqueIdentifier>{816a4280-7d71-4ac5-a9f9-6a2b2c2a977a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\material">
+      <UniqueIdentifier>{b8f2d3e3-2423-4b29-aaa3-8393cebffcdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\geometry">
+      <UniqueIdentifier>{ed7a7e61-3914-4e83-b7d7-9bee4d6e75cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\texture">
+      <UniqueIdentifier>{015f05ee-8dd7-4d77-9314-61a6b0dc0f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render">
+      <UniqueIdentifier>{2938dae5-f6ea-4014-9743-286aa486d5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\camera">
+      <UniqueIdentifier>{8fe3abe6-f89d-4f59-a0cb-55a4154d0768}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Manager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Manager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
