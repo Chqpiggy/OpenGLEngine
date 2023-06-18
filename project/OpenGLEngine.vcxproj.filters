@@ -27,13 +27,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Manager.cpp">
+    <ClCompile Include="..\src\render\Render.cpp">
+      <Filter>src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Manager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RenderInterface.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Manager.h">
+    <ClInclude Include="..\include\RenderInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Define.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\render\Render.h">
+      <Filter>src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Manager.h">
       <Filter>src</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>
